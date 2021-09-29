@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main ()
 {
-	int divisa, i;
+	int divisa, i, opc;
 	float moneda, bolivar, canadiense, libra, pesoCol, pesoMex, yen, yuan, euro, realbr, pesoArg;
-	char opc;
 	i=0;
-	while(i<=19){
+	do{
 		printf("\nIntroduzca su cantidad %i\n: ", i+1);
 		scanf("%f", &moneda);
 		bolivar=moneda*32738.48; canadiense=moneda*1.31; libra=moneda*0.78;
@@ -57,7 +56,7 @@ int main ()
 			printf("\nERROR SELECCIONE CORRECTAMENTE EL TIPO DE MONEDA QUE INGRESO\n");
 			printf("\n----------------------------------");
 		}
-		i=i+1;
-	}
+		printf("\nPresione 1 para CONTINUAR --- 2 para SALIR\n: ");scanf("%d",&opc);
+	}while(opc==1);
 	return 0;
 }
