@@ -51,4 +51,3 @@ int main ()
 	}while(opc==1);
 	return 0;
 }
-}
