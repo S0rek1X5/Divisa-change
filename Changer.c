@@ -5,7 +5,8 @@ int main ()
 	float moneda, bolivar, canadiense, libra, pesoCol, pesoMex, yen, yuan, euro, realbr, pesoArg;
 	i=0;
 	do{
-		printf("\nIntroduzca su cantidad %i\n: ", i+1);
+		printf("----Bienvenido----\n");
+		printf("\nIntroduzca su dinero %i\n: ", i+1);
 		scanf("%f", &moneda);
 		bolivar=moneda*32738.48; canadiense=moneda*1.31; libra=moneda*0.78;
 		pesoCol=moneda*3777.51; pesoMex =moneda*21.98; pesoArg=moneda*69.31;
@@ -47,7 +48,7 @@ int main ()
 			printf("\nERROR SELECCIONE CORRECTAMENTE EL TIPO DE MONEDA QUE INGRESO\n");
 		}
 		printf("\nPresione 1 para CONTINUAR --- 2 para SALIR\n: ");scanf("%d",&opc);
-		printf("\n----------------------------------");
+		printf("\n----------------------------------\n");
 	}while(opc==1);
 	return 0;
 }
