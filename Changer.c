@@ -14,35 +14,35 @@ int main ()
 		printf("Introduzca el tipo de moneda que ha ingresado \nBOLIVAR marque -1-\nDOLAR CANADIENSE marque -2-\nLIBRA marque -3-\nPESO COLOMBIANO marque -4-\nPESO MEXICANO marque -5-\nPESO ARGENTINO marque -6-\nYEN marque -7-\nYUAN marque -8-\nEURO marque -9-\nREAL BRASILENHO marque -10-\n: ");
 		scanf("%d", &divisa);
 		if (divisa==1){
-			printf("\nSu cantidad es-> %1.2f Dolares", bolivar);
+			printf("\nSu cantidad es-> $%1.2f Dolares", bolivar);
 		}
 		else if(divisa==2){
-			printf("\nSu cantidad es-> %1.2f Dolares", canadiense);
+			printf("\nSu cantidad es-> $%1.2f Dolares", canadiense);
 		}
 		else if(divisa==3){
-			printf("\nSu cantidad es-> %1.2f Dolares", libra);
+			printf("\nSu cantidad es-> $%1.2f Dolares", libra);
 		}
 		else if(divisa==4){
-			printf("\nSu cantidad es-> %1.2f Dolares", pesoCol);
+			printf("\nSu cantidad es-> $%1.2f Dolares", pesoCol);
 		}
 		else if(divisa==5){
-			printf("\nSu cantidad es-> %1.2f Dolares", pesoMex);
+			printf("\nSu cantidad es-> $%1.2f Dolares", pesoMex);
 		}
 		else if(divisa==6){
-			printf("\nSu cantidad es-> %1.2f Dolares", pesoArg);
+			printf("\nSu cantidad es-> $%1.2f Dolares", pesoArg);
 		}
 		else if(divisa==7){
-			printf("\nSu cantidad es-> %1.2f Dolares", yen);
+			printf("\nSu cantidad es-> $%1.2f Dolares", yen);
 		}
 		else if(divisa==8){
-			printf("\nSu cantidad es-> %1.2f Dolares", yuan);
+			printf("\nSu cantidad es-> $%1.2f Dolares", yuan);
 
 		}
 		else if(divisa==9){
-			printf("\nSu cantidad es-> %1.2f Dolares", euro);
+			printf("\nSu cantidad es-> $%1.2f Dolares", euro);
 		}
 		else if(divisa==10){
-			printf("\nSu cantidad es-> %1.2f Dolares", realbr);
+			printf("\nSu cantidad es-> $%1.2f Dolares", realbr);
 		}
 		else{
 			printf("\nERROR SELECCIONE CORRECTAMENTE EL TIPO DE MONEDA QUE INGRESO\n");
