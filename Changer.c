@@ -54,7 +54,7 @@ int main ()
 	int divisa, opc;
 	float moneda;
 	do{
-		printf("\t----Bienvenido----\n");
+		printf("\t----Bienvenido----");
 		printf("\nIntroduzca su dinero \n: ");scanf("%f", &moneda);
 		printf("\tIntroduzca el tipo de moneda que ha ingresado \nBOLIVAR marque\t-1-\nDOLAR CANADIENSE marque -2-\nLIBRA marque\t-3-\nPESO COLOMBIANO marque\t-4-\nPESO MEXICANO marque\t-5-\nPESO ARGENTINO marque\t-6-\nYEN marque\t-7-\nYUAN marque\t-8-\nEURO marque\t-9-\nREAL BRASILENHO marque\t-10-\n: ");scanf("%d", &divisa);
 		if (divisa==1){
